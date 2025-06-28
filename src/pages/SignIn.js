@@ -7,12 +7,17 @@ const SignIn = ({ onSignIn, switchToSignUp }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "user@foo.com" && password === "password") {
+    if (
+      (email === "demo@example.com" && password === "password123") ||
+      (email === "test@user.com" && password === "testpass")
+    ) {
       setError("");
       const name = email.split("@")[0];
       onSignIn(name.charAt(0).toUpperCase() + name.slice(1));
     } else {
-      setError("Invalid credentials. Try user@foo.com / password");
+      setError(
+        "Invalid credentials. Try demo@example.com / password123 or  test@user.com / testpass"
+      );
     }
   };
 
