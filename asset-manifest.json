@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/atlys/static/css/main.147f111b.css",
+    "main.js": "/atlys/static/js/main.ba5240fc.js",
+    "index.html": "/atlys/index.html",
+    "main.147f111b.css.map": "/atlys/static/css/main.147f111b.css.map",
+    "main.ba5240fc.js.map": "/atlys/static/js/main.ba5240fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.147f111b.css",
+    "static/js/main.ba5240fc.js"
+  ]
+}
